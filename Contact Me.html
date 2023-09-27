@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>CONTACT ME</title>
+    <style>
+        a:link{
+            color: rgb(42, 71, 165);
+        }
+        a:hover{
+            background-color: white;
+        }
+        a:visited{
+            color: purple;
+        }
+        a{
+            border: 2px solid black;
+            text-decoration: none;
+            margin-left: 150px;
+            border-radius: 30px;
+            font-size: 20px;
+        }
+        label{
+            font-size: 15px;
+            background-color: lightblue;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body style="background-image: url(see7.jpg);">
+    <br><br><br><br>
+    <center>
+        <form target="_blank">
+            <fieldset style="border: 2.5px solid black; width: 50%;  height: 250px;">
+                <legend>CONTACT ME</legend>
+                <label for="uname">User name</label>
+    
+                <input type="text" required id="uname" pattern="[a-zA-Z]{3,12}">
+                <br>
+                <br>
+                <label for="email">Email_id</label>
+    
+                <input type="email" required id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+                <br>
+                <br>
+                <label for="pnum">Phone No</label>
+    
+                <input type="text" required id="pnum" pattern="[6-9]{1}[0-9]{9}">
+
+                <br>
+                <br>
+                <label for="message">Message</label>
+                <input type="text" required id="message" pattern="[a-zA-z]{3,20}" style="height:30px;">
+
+                
+                <br>
+                <br>
+                <center>
+                    <a href="p1.html" style="margin-left: 50px; border-radius: 30px;">Submit</a>
+                </center>
+            </fieldset>
+
+        </form>
+    </center>
+        
+    
+</body>
+</html>
